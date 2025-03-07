@@ -20,11 +20,11 @@ Setup.py File Example:
 
 
 ```python
-from rajhi_importer import rajhi_importer
+from rajhi_importer import rajhi_credit
 
 importers = [
 
-    rajhi_importer.Importer("Liabilities:Rajhi:CashbackCard", "SAR", "0000 00XX XXXX 0000"),
+    rajhi_credit.Importer("Liabilities:Rajhi:CashbackCard", "SAR", "0000 00XX XXXX 0000"),
 ]
 
 def clean_up_descriptions(extracted_entries):
