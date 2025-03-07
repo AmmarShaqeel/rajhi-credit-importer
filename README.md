@@ -19,7 +19,7 @@ Then run:
 Setup.py File Example:
 
 
-```
+```python
 from rajhi_importer import rajhi_importer
 
 importers = [
