@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="rajhi-importer",
+    name="rajhi_importer",
     version="0.1.0",
     description="An importer for Rajhi card PDF statements",
     author="Ammar Shaqeel",
