@@ -16,7 +16,8 @@ Then run:
 Setup.py File Example:
 
 
-```from rajhi_importer import rajhi_importer
+```
+from rajhi_importer import rajhi_importer
 
 importers = [
 
