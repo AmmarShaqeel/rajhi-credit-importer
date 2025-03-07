@@ -4,8 +4,10 @@ An importer for PDF Rajhi Card Statements (Should work for Cashback/Credit Cards
 Based on the beangulp framework: https://github.com/beancount/beangulp.
 
 
-## Usage
+## Installation
+``` pip install git+https://github.com/AmmarShaqeel/rajhi_importer.git```
 
+## Usage
 Create a setup.py file as below.
 Substitute the account/card number with your own.
 
