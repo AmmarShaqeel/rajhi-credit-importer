@@ -63,7 +63,11 @@ class Importer(beangulp.Importer):
         # Get the actual statement's date from the contents of the file.
         match = re.search('CardMonthly_(\d{6})\.pdf', filepath)
         if match:
-            return parse_datetime(match.group(1)).date()
+            date_string = match.group(1)
+            year = int(date_string[:4])
+            month = int(date_string[4:6])
+            # Create a date object for the first day of that month
+            return datetime(year, month, 1).date()
         else:
             return None
 
