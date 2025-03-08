@@ -18,8 +18,7 @@ Then run:
 ```python import.py extract YourCardStatement.PDF```
 
 
-Setup.py File Example:
-
+###  Example Setup.py:
 
 ```python
 from rajhi_importer import rajhi_credit
