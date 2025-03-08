@@ -1,7 +1,7 @@
 # rajhi-importer
 An importer for Rajhi PDF Card Statements to beancount.
 
-At the moment only Cashback and Credit Cards. No support for Debit cards at the moment.
+At the moment only supports Cashback and Credit Cards. No support for Debit cards at the moment.
 
 Based on the beangulp framework: https://github.com/beancount/beangulp.
 
